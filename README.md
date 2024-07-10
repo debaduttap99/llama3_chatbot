@@ -31,24 +31,24 @@ Build a chatbot powered by LlamaIndex that augments Llama3 with the contents of 
 
 5. Install the requirements:
 
-   ```bash
-   $ pip install -r requirements.txt
-   ```
+```cmd
+   pip install -r requirements.txt
+```
 
 6. Run the app:
 
-```bash
-   $ cd llamaragbot
+```cmd
+   cd llamaragbot
 ```
 
 To test if llama3 is working run:
 
-```bash
-$ python basics.py
+```cmd
+   python basics.py
 ```
 
 To launch the app:
 
-```bash
-$ streamlit run app.py
+```cmd
+ streamlit run app.py
 ```
