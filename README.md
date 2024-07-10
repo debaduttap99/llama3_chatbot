@@ -37,6 +37,10 @@ Build a chatbot powered by LlamaIndex that augments Llama3 with the contents of 
 
 6. Run the app:
 
+```bash
+   $ cd llamaragbot
+```
+
 To test if llama3 is working run:
 
 ```bash
