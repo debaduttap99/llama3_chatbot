@@ -46,11 +46,6 @@ To test if llama3 is working run:
    python basics.py
    ```
 
-To run the app:   
-   ```cmd
-   python basics.py
-   ```
-
 To launch the app:
    ```cmd
    streamlit run app.py
