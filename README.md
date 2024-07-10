@@ -10,8 +10,8 @@ Build a chatbot powered by LlamaIndex that augments Llama3 with the contents of 
 
 3. Navigate into the project directory:
 
-   ```bash
-   $ cd llama3_chatbot
+   ```cmd
+   cd llama3_chatbot
    ```
 
 4. Create a new virtual environment:
