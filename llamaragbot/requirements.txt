@@ -1,0 +1,6 @@
+streamlit
+llama-index
+nltk
+pypdf
+llama_index.llms.ollama
+ollama
