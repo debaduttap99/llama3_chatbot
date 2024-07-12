@@ -6,15 +6,17 @@ Build a chatbot powered by LlamaIndex that augments Llama3 with the contents of 
 
 1. If you don’t have Python installed, install it [from Python.org](https://www.python.org/downloads/).
 
-2. [Clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) this repository.
+2. If you don't have ollama installed, install it [from ollama.com](https://ollama.com/).
 
-3. Navigate into the project directory:
+3. [Clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) this repository.
 
-   ```bash
-   $ cd llamaragbot
+4. Navigate into the project directory:
+
+   ```cmd
+   cd llama3_chatbot
    ```
 
-4. Create a new virtual environment:
+5. Create a new virtual environment:
 
    - macOS:
 
@@ -29,22 +31,27 @@ Build a chatbot powered by LlamaIndex that augments Llama3 with the contents of 
      > .\venv\Scripts\activate
      ```
 
-5. Install the requirements:
+6. Install the requirements:
 
-   ```bash
-   $ pip install -r requirements.txt
+   ```cmd
+   pip install -r requirements.txt
    ```
 
-6. Run the app:
+7. Run the app:
+
+   ```cmd
+   cd llamaragbot
+   ```
+   ```cmd
+   ollama serve
+   ```
 
 To test if llama3 is working run:
-
-```bash
-$ python basics.py
-```
+   ```cmd
+   python basics.py
+   ```
 
 To launch the app:
-
-```bash
-$ streamlit run app.py
-```
+   ```cmd
+   streamlit run app.py
+   ```

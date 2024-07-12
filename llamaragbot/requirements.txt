@@ -4,3 +4,5 @@ nltk
 pypdf
 llama_index.llms.ollama
 ollama
+llama_index.embeddings.huggingface
+llama-index-llms-huggingface
